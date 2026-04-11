@@ -1,0 +1,197 @@
+﻿Title,Salary,Years of Experiences,Work Hour,Work Type,What Is your Company,City of Company site
+.Net Developer,15000,1,Full Time,Hybird,Egyptian,Alexandria
+.Net Developer,311050,2,Full Time,Hybird,Egyptian,Cairo
+.Net Developer,15000,1,Full Time,Hybird,Egyptian,Giza
+.Net Developer,30000,2,Full Time,Hybird,Egyptian,Mansoura
+.Net Developer,54000,3,Full Time,Hybird,Egyptian,un-known
+.Net Developer,9000,1,Full Time,Hybird,Not Egyptian but site in egypt,Benha
+.Net Developer,128000,4,Full Time,Hybird,Not Egyptian but site in egypt,Cairo
+.Net Developer,60000,6,Full Time,Hybird,Not Egyptian but site in egypt,Dubai
+.Net Developer,45000,3,Full Time,Hybird,Not Egyptian but site in egypt,Ksa
+.Net Developer,15000,1,Full Time,Hybird,Not Egyptian but site in egypt,"Maadi/Cairo , Ksa"
+.Net Developer,16000,1,Full Time,Hybird,Not Egyptian but site in egypt,Octobre
+.Net Developer,12000,2,Full Time,On Site,Egyptian,10Th Of Ramadan
+.Net Developer,37500,7,Full Time,On Site,Egyptian,Alexandria
+.Net Developer,151000,1,Full Time,On Site,Egyptian,Cairo
+.Net Developer,44500,1,Full Time,On Site,Egyptian,Mansoura
+.Net Developer,15000,1,Full Time,On Site,Egyptian,New Cairo
+.Net Developer,10000,0,Full Time,On Site,Egyptian,October
+.Net Developer,27000,1,Full Time,On Site,Egyptian,Smart Village
+.Net Developer,66400,6,Full Time,On Site,Not Egyptian but site in egypt,Dubai
+.Net Developer,38400,2,Full Time,On Site,Not Egyptian but site in egypt,un-known
+.Net Developer,37000,1,Full Time,Remotley,Egyptian,Cairo
+.Net Developer,28500,3,Full Time,Remotley,Egyptian,un-known
+.Net Developer,8000,1,Full Time,Remotley,Not Egyptian and site out of egypt,Bahrain
+.Net Developer,82000,2,Full Time,Remotley,Not Egyptian and site out of egypt,Dubai
+.Net Developer,72000,4,Full Time,Remotley,Not Egyptian and site out of egypt,Ksa
+.Net Developer,15000,1,Full Time,Remotley,Not Egyptian and site out of egypt,Riyadh
+.Net Developer,12000,1,Full Time,Remotley,Not Egyptian but site in egypt,Cairo
+.Net Developer,26000,3,Full Time,Remotley,Not Egyptian but site in egypt,Ksa
+.Net Developer,60000,4,Full Time,Remotley,Not Egyptian but site in egypt,Usa
+.Net Developer,12000,3,Part Time,Remotley,Not Egyptian and site out of egypt,un-known
+.Net Developer,5500,0,Part Time,Remotley,Not Egyptian but site in egypt,un-known
+Back End Developer (Ruby On Rails),26000,2,Full Time,Remotley,Egyptian,un-known
+Backend Developer,94000,1,Full Time,Hybird,Egyptian,Cairo
+Backend Developer,139000,5,Full Time,Hybird,Not Egyptian but site in egypt,Cairo
+Backend Developer,37000,1,Full Time,On Site,Egyptian,Cairo
+Backend Developer,20000,2,Full Time,On Site,Egyptian,Makram
+Backend Developer,36000,5,Full Time,Remotley,Egyptian,Cairo
+Backend Developer,42000,1,Full Time,Remotley,Egyptian,un-known
+Backend Developer,66000,1,Full Time,Remotley,Not Egyptian and site out of egypt,Riyadh
+Backend Developer,22000,0,Full Time,Remotley,Not Egyptian and site out of egypt,un-known
+Backend Developer,20000,2,Full Time,Remotley,Not Egyptian but site in egypt,Cairo
+Backend Developer - Django,53000,3,Full Time,Hybird,Egyptian,Cairo
+Backend Developer - Django,15000,0,Full Time,Hybird,Egyptian,un-known
+Backend Developer - Django,39000,1,Full Time,Hybird,Not Egyptian but site in egypt,Cairo
+Backend Developer - Django,70500,2,Full Time,Remotley,Egyptian,Cairo
+Backend Java Developer,25000,1,Full Time,On Site,Egyptian,Cairo
+Front End Developer React,24000,2,Full Time,Hybird,Egyptian,Giza
+Front End Developer React,9000,1,Full Time,On Site,Egyptian,Cairo
+Front End Developer React,6000,3,Full Time,Remotley,Not Egyptian and site out of egypt,Canada
+Frontend Developer,225900,2,Full Time,Hybird,Egyptian,Cairo
+Frontend Developer,30000,7,Full Time,Hybird,Egyptian,Giza
+Frontend Developer,68000,3,Full Time,Hybird,Egyptian,Nasr City
+Frontend Developer,18000,4,Full Time,Hybird,Egyptian,Shrouq
+Frontend Developer,8000,1,Full Time,Hybird,Egyptian,un-known
+Frontend Developer,91000,3,Full Time,Hybird,Not Egyptian but site in egypt,Cairo
+Frontend Developer,23000,3,Full Time,Hybird,Not Egyptian but site in egypt,Maadi
+Frontend Developer,75000,4,Full Time,Hybird,Not Egyptian but site in egypt,un-known
+Frontend Developer,31500,3,Full Time,On Site,Egyptian,Alexandria
+Frontend Developer,156000,2,Full Time,On Site,Egyptian,Cairo
+Frontend Developer,4000,1,Full Time,On Site,Egyptian,Mansoura
+Frontend Developer,18000,2,Full Time,On Site,Egyptian,October
+Frontend Developer,65000,7,Full Time,On Site,Egyptian,Smart Village
+Frontend Developer,93000,0,Full Time,On Site,Egyptian,un-known
+Frontend Developer,8000,3,Full Time,On Site,Not Egyptian but site in egypt,Alexandria
+Frontend Developer,252000,4,Full Time,On Site,Not Egyptian but site in egypt,Cairo
+Frontend Developer,18500,2,Full Time,On Site,Not Egyptian but site in egypt,un-known
+Frontend Developer,67000,1,Full Time,Remotley,Egyptian,Cairo
+Frontend Developer,20000,2,Full Time,Remotley,Egyptian,"Cairo, Zamalic"
+Frontend Developer,9000,1,Full Time,Remotley,Egyptian,Ksa
+Frontend Developer,8000,1,Full Time,Remotley,Egyptian,October
+Frontend Developer,66000,2,Full Time,Remotley,Egyptian,un-known
+Frontend Developer,72000,4,Full Time,Remotley,Not Egyptian and site out of egypt,Dubai
+Frontend Developer,84000,4,Full Time,Remotley,Not Egyptian and site out of egypt,Istanbul
+Frontend Developer,120000,3,Full Time,Remotley,Not Egyptian and site out of egypt,Riyadh
+Frontend Developer,36000,3,Full Time,Remotley,Not Egyptian but site in egypt,Cairo
+Frontend Developer,72000,3,Full Time,Remotley,Not Egyptian but site in egypt,California
+Frontend Developer,8000,1,Full Time,Remotley,Not Egyptian but site in egypt,Ksa
+Frontend Developer,14000,1,Full Time,Remotley,Not Egyptian but site in egypt,un-known
+Frontend Developer,3500,2,Part Time,Remotley,Egyptian,Alexandria
+Frontend Developer,10000,2,Part Time,Remotley,Egyptian,Cairo
+Frontend Developer,70000,3,Part Time,Remotley,Not Egyptian and site out of egypt,Dubai
+Frontend Developer Angular,55000,3,Full Time,Hybird,Egyptian,Cairo
+Frontend Developer Angular,7300,3,Full Time,On Site,Egyptian,Cairo
+Frontend Developer Vue.Js,14000,0,Full Time,Hybird,Egyptian,un-known
+Frontend Developer Vue.Js,5000,0,Full Time,On Site,Not Egyptian but site in egypt,Mansoura
+Frontend Developer Vue.Js,7000,2,Full Time,Remotley,Egyptian,Cairo
+Frontend Developer Vue.Js,48000,2,Full Time,Remotley,Not Egyptian and site out of egypt,Jeddah
+Frontend Developer Vue.Js,36000,3,Full Time,Remotley,Not Egyptian and site out of egypt,un-known
+Full Stack (Java & React),15000,2,Full Time,Hybird,Egyptian,Cairo
+Full Stack .Net & Angular,52000,6,Full Time,Hybird,Not Egyptian but site in egypt,Cairo
+Full Stack .Net & Angular,12000,2,Full Time,On Site,Not Egyptian but site in egypt,Cairo
+Full Stack .Net & Angular,6000,0,Full Time,Remotley,Egyptian,un-known
+Full Stack .Net & Angular,24000,2,Full Time,Remotley,Not Egyptian and site out of egypt,un-known
+Full Stack .Net And React Developer,8000,1,Part Time,Hybird,Not Egyptian but site in egypt,Cairo
+Full Stack .Net Developer,20000,1,Full Time,Hybird,Egyptian,Cairo
+Full Stack .Net Developer,15300,3,Full Time,Hybird,Not Egyptian but site in egypt,Kuwait
+Full Stack .Net Developer,27000,1,Full Time,Hybird,Not Egyptian but site in egypt,Mansoura
+Full Stack .Net Developer,21000,1,Full Time,On Site,Egyptian,Cairo
+Full Stack .Net Developer,15000,3,Full Time,Remotley,Egyptian,Benha
+Full Stack .Net Developer,12000,1,Full Time,Remotley,Egyptian,Cairo
+Full Stack .Net Developer,12000,1,Full Time,Remotley,Egyptian,Kuwait
+Full Stack .Net Developer,120000,3,Full Time,Remotley,Egyptian,United Kingdom
+Full Stack .Net Developer,5000,0,Part Time,Remotley,Egyptian,un-known
+Full Stack Developer,95000,2,Full Time,Hybird,Egyptian,Cairo
+Full Stack Developer,16000,2,Full Time,Hybird,Egyptian,Mansoura
+Full Stack Developer,46000,3,Full Time,Hybird,Not Egyptian but site in egypt,Cairo
+Full Stack Developer,23000,2,Full Time,Hybird,Not Egyptian but site in egypt,Ksa
+Full Stack Developer,11000,1,Full Time,On Site,Egyptian,Alexandria
+Full Stack Developer,146000,3,Full Time,On Site,Egyptian,Cairo
+Full Stack Developer,5000,0,Full Time,On Site,Egyptian,Tanta
+Full Stack Developer,7000,8,Full Time,Remotley,Egyptian,Alexandria
+Full Stack Developer,19000,2,Full Time,Remotley,Egyptian,Cairo
+Full Stack Developer,42000,7,Full Time,Remotley,Not Egyptian and site out of egypt,Kuwait
+Full Stack Developer,54000,3,Full Time,Remotley,Not Egyptian and site out of egypt,Riyadh
+Full Stack Developer,23500,3,Full Time,Remotley,Not Egyptian but site in egypt,California
+Full Stack Developer,15000,2,Part Time,Remotley,Egyptian,Cairo
+Full Stack Developer,30000,6,Part Time,Remotley,Egyptian,un-known
+Full Stack Developer .Net & Angular,39000,2,Full Time,Remotley,Not Egyptian but site in egypt,Ksa
+Full Stack Developer Python,8000,1,Full Time,Remotley,Egyptian,Cairo
+Full Stack Java,22000,6,Full Time,Hybird,Egyptian,"Giza, Smart Village"
+Full Stack Node Angular,16000,2,Full Time,Remotley,Egyptian,Cairo
+Full Stack Node Js Developer,8000,1,Full Time,Remotley,Not Egyptian but site in egypt,California And Cairo
+Full Stack Python And React,15000,0,Full Time,Hybird,Egyptian,Cairo
+Full Stack Web Developer . Net & Angular,23500,3,Full Time,On Site,Egyptian,Maadi
+Full Stack(.Net+ Angular),15000,2,Part Time,Remotley,Not Egyptian but site in egypt,Cairo
+"Full-Stack (.Net, React)",60000,6,Full Time,Hybird,Egyptian,Cairo
+Full-Stack Developer,25000,2,Full Time,Hybird,Egyptian,Cairo
+Full-Stack Developer,14000,1,Full Time,On Site,Egyptian,Cairo
+Full-Stack Developer,15000,2,Full Time,Remotley,Egyptian,un-known
+Full-Stack Developer (.Net-Angular),50000,10,Full Time,Hybird,Not Egyptian but site in egypt,Ksa
+Fullstack Developer (Laravel & Flutter),11000,1,Full Time,Hybird,Egyptian,Cairo
+Fullstack Developer Laravel Vue,8000,1,Full Time,On Site,Egyptian,Nasr City
+Fullstack Developer Laravel Vue,25000,3,Full Time,Remotley,Not Egyptian but site in egypt,Cairo
+"Full-Stack Engineer(Spring, React)",11000,1,Full Time,Hybird,Egyptian,un-known
+Fullstack Intern - Java & Angular,12000,1,Full Time,Remotley,Not Egyptian but site in egypt,un-known
+Fullstack Vue + Python,20000,1,Full Time,Remotley,Not Egyptian and site out of egypt,Texas
+Gis Frontend Developer,12000,4,Part Time,Remotley,Not Egyptian but site in egypt,Cairo
+Java Backend,110000,4,Full Time,Hybird,Not Egyptian but site in egypt,Smart Village
+Java Developer,81000,1,Full Time,Hybird,Egyptian,Cairo
+Java Developer,5000,1,Full Time,Hybird,Egyptian,Giza
+Java Developer,38000,1,Full Time,Hybird,Not Egyptian but site in egypt,Cairo
+Java Developer,32000,5,Full Time,Hybird,Not Egyptian but site in egypt,un-known
+Java Developer,37750,1,Full Time,On Site,Egyptian,Alexandria
+Java Developer,50000,0,Full Time,On Site,Egyptian,Cairo
+Java Developer,13000,2,Full Time,On Site,Egyptian,Giza
+Java Developer,29000,0,Full Time,On Site,Not Egyptian but site in egypt,Assiut
+Java Developer,29500,1,Full Time,On Site,Not Egyptian but site in egypt,Cairo
+Java Developer,12000,0,Full Time,On Site,Not Egyptian but site in egypt,"Cairo, Riyadh"
+Java Developer,30000,3,Full Time,On Site,Not Egyptian but site in egypt,Giza
+Java Developer,4000,4,Full Time,Remotley,Egyptian,Cairo
+Java Developer,28500,2,Full Time,Remotley,Not Egyptian but site in egypt,Smart Village
+Java Full Stack Developer,22000,1,Full Time,Hybird,Egyptian,Cairo
+Java Software Engineer,70000,2,Full Time,Hybird,Egyptian,Cairo
+Javascript Developer,20000,1,Full Time,On Site,Egyptian,Cairo
+Javascript Developer,30000,3,Full Time,On Site,Egyptian,un-known
+Javascript Developer,24000,1,Full Time,On Site,Not Egyptian but site in egypt,Cairo
+Laravel Backend Developer,20000,4,Full Time,Hybird,Not Egyptian but site in egypt,Cairo
+Laravel Full Stack Developer,7000,1,Full Time,Hybird,Egyptian,Giza
+Mearn Stack -Front End Developer,8000,1,Full Time,On Site,Egyptian,Aswan
+Mern Full Stack Developer,16000,3,Full Time,Hybird,Egyptian,October
+Mern Full Stack Developer,28000,3,Full Time,On Site,Egyptian,Cairo
+Netsuite Technical Developer (Javascript Developer),27000,2,Full Time,Remotley,Egyptian,Cairo
+Node.Js Backend Developer,15000,1,Full Time,Remotley,Egyptian,Cairo
+Nodejs Developer,14000,2,Full Time,Hybird,Egyptian,Cairo
+Nodejs Developer,7000,1,Full Time,Hybird,Egyptian,"Cairo, Maadi"
+Nodejs Developer,47000,3,Full Time,Hybird,Egyptian,Ksa
+Nodejs Developer,85000,2,Full Time,On Site,Egyptian,Kafr El Sheikh
+Nodejs Developer,9000,1,Full Time,On Site,Egyptian,New Damietta
+Nodejs Developer,14000,1,Full Time,On Site,Not Egyptian but site in egypt,Giza
+Nodejs Developer,15000,1,Full Time,Remotley,Egyptian,Cairo
+Nodejs Developer,10000,2,Full Time,Remotley,Egyptian,Dubai
+Nodejs Developer,82000,4,Full Time,Remotley,Not Egyptian and site out of egypt,Jeddah
+Nodejs Developer,16000,2,Full Time,Remotley,Not Egyptian and site out of egypt,un-known
+Nodejs Developer,15000,1,Part Time,Hybird,Egyptian,Cairo
+Nodejs Developer,6000,1,Part Time,Remotley,Not Egyptian and site out of egypt,Ksa
+Php Developer,64000,4,Full Time,On Site,Egyptian,Cairo
+Php Developer,100000,10,Full Time,On Site,Egyptian,El Doqy
+Php Developer,20000,2,Full Time,On Site,Egyptian,Mansoura
+Php Developer,15000,0,Full Time,On Site,Not Egyptian but site in egypt,Ksa
+Php Developer,11000,1,Full Time,Remotley,Egyptian,Cairo
+Php Developer,25000,5,Full Time,Remotley,Not Egyptian and site out of egypt,Dubai
+Php Developer,16000,2,Full Time,Remotley,Not Egyptian and site out of egypt,Riyadh
+Php Developer,9500,0,Part Time,Hybird,Egyptian,5Th Settelment
+Php Developer,48000,5,Part Time,Remotley,Egyptian,Cairo
+Rust Backend Developer,8000,0,Full Time,Remotley,Not Egyptian and site out of egypt,Cairo
+Software Engineer (Backend Java),24000,1,Full Time,On Site,Egyptian,Cairo
+Software Engineer (Full Stack / .Net),66000,2,Full Time,Remotley,Not Egyptian and site out of egypt,Canada
+Software Engineer Stack Java,15000,1,Full Time,Hybird,Egyptian,Cairo
+Teamlead Backend Developer Php,15000,3,Full Time,On Site,Egyptian,Mansoura
+Web Developer,40000,3,Full Time,Hybird,Egyptian,Cairo
+Web Developer,10000,2,Full Time,Hybird,Not Egyptian but site in egypt,Giza
+Web Developer,5000,0,Full Time,On Site,Egyptian,Cairo
+Web Developer,9000,1,Full Time,Remotley,Not Egyptian but site in egypt,Ksa
+Wordpress Developer,14000,4,Full Time,Hybird,Egyptian,Cairo
+Wordpress Developer,30000,3,Full Time,On Site,Egyptian,Cairo
+Wordpress Developer,40000,3,Full Time,Remotley,Not Egyptian and site out of egypt,Uae
