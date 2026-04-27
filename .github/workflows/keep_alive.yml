@@ -1,0 +1,14 @@
+name: Keep Streamlit Awake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  ping-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Streamlit app
+        run: |
+          curl -I -L --max-time 60 "https://egypt-tech-salary-predictor-rwrrucbh4lypdqitofhabm.streamlit.app/"
