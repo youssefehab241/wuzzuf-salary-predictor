@@ -2,8 +2,8 @@ import pandas as pd
 from pathlib import Path
 
 
-input_path = Path("data_sources/merged/final_merged_training.csv")
-output_path = Path("data_sources/merged/final_merged_training_standardized.csv")
+input_path = Path("data_sources/merged/ml_ready_salary_data.csv")
+output_path = Path("data_sources/merged/ml_ready_salary_data_standardized.csv")
 
 df = pd.read_csv(input_path)
 
@@ -18,7 +18,7 @@ def standardize_title(title):
     if any(word in text for word in [
         "qa", "quality assurance", "testing", "tester", "test engineer",
         "selenium", "playwright", "cypress", "postman", "automation test",
-        "manual test", "automation engineer", "software testing"
+        "manual test", "automation engineer", "software testing", "sdet"
     ]):
         return "software testing engineer"
 
@@ -27,7 +27,8 @@ def standardize_title(title):
         "devops", "cloud", "infrastructure", "kafka", "sre",
         "docker", "kubernetes", "terraform", "ansible",
         "jenkins", "ci/cd", "aws", "azure", "gcp",
-        "linux admin", "system admin", "site reliability"
+        "linux admin", "system admin", "site reliability",
+        "devsecops", "platform engineer", "cloud engineer"
     ]):
         return "devops engineer"
 
@@ -35,7 +36,8 @@ def standardize_title(title):
     if any(word in text for word in [
         "security", "cyber", "soc", "siem", "penetration",
         "pentest", "blue team", "red team", "dfir",
-        "information security", "network security"
+        "information security", "network security",
+        "security engineer", "cybersecurity"
     ]):
         return "cybersecurity engineer"
 
@@ -49,7 +51,8 @@ def standardize_title(title):
     # ui/ux
     if any(word in text for word in [
         "ui/ux", "ux", "ui designer", "ux designer",
-        "product designer", "figma", "wireframe", "prototype"
+        "product designer", "figma", "wireframe", "prototype",
+        "ui ", " ux ", "web designer"
     ]):
         return "ui/ux designer"
 
@@ -74,7 +77,7 @@ def standardize_title(title):
         "computer vision", "nlp", "deep learning", "analytics",
         "business intelligence", "bi developer", "bi analyst",
         "power bi", "tableau", "etl", "big data", "spark",
-        "pandas", "numpy"
+        "pandas", "numpy", "genai", "llm", "mlops", "prompt engineer"
     ]):
         return "data/ai engineer"
 
@@ -83,7 +86,7 @@ def standardize_title(title):
         "front end", "frontend", "front-end",
         "react", "angular", "vue", "next.js", "nextjs",
         "javascript", "typescript", "html", "css", "bootstrap",
-        "web designer", "web ui"
+        "web ui", "frontend developer", "frontend engineer"
     ]):
         return "front end engineer"
 
@@ -105,14 +108,15 @@ def standardize_title(title):
         "oracle", "pl/sql", "plsql", "sql developer",
         "database developer", "db developer", "dba",
         "erp", "odoo", "sap", "crm developer", "technical consultant",
-        "software consultant", "integration engineer", "middleware"
+        "software consultant", "integration engineer", "middleware",
+        "developer .net", "developer.net"
     ]):
         return "back end engineer"
 
     return "other"
 
 
-df["job_title_standardized"] = df["job_title"].apply(standardize_title)
+df["job_title_standardized"] = df["job_title_clean"].apply(standardize_title)
 
 allowed_categories = [
     "front end engineer",
@@ -133,7 +137,7 @@ print(df["job_title_standardized"].value_counts())
 
 print("\nTop remaining OTHER titles:")
 other_counts = (
-    df[df["job_title_standardized"] == "other"]["job_title"]
+    df[df["job_title_standardized"] == "other"]["job_title_clean"]
     .value_counts()
     .head(100)
 )
@@ -141,8 +145,26 @@ print(other_counts)
 
 filtered_df = df[df["job_title_standardized"].isin(allowed_categories)].copy()
 
+# Fix salary values written in "k" style such as 12.5 -> 12500
+filtered_df.loc[filtered_df["salary_target"] < 200, "salary_target"] *= 1000
+
+# Remove unrealistic salary values
+filtered_df = filtered_df[
+    (filtered_df["salary_target"] >= 3000) &
+    (filtered_df["salary_target"] <= 250000)
+].copy()
+
+# Fix salary values written in "k" style such as 12.5 -> 12500
+filtered_df.loc[filtered_df["salary_target"] < 200, "salary_target"] *= 1000
+
 print("\nCategory counts after filtering:")
 print(filtered_df["job_title_standardized"].value_counts())
+
+print("\nSalary summary after correction:")
+print(filtered_df["salary_target"].describe())
+
+print("\nSmallest salary values after correction:")
+print(filtered_df["salary_target"].sort_values().head(20))
 
 filtered_df.to_csv(output_path, index=False)
 
@@ -151,4 +173,13 @@ print(f"Output file: {output_path}")
 print(f"Shape: {filtered_df.shape}")
 
 print("\nPreview:")
-print(filtered_df[["job_title", "job_title_standardized", "experience_years", "salary_mid"]].head(20))
+print(
+    filtered_df[
+        [
+            "job_title_clean",
+            "job_title_standardized",
+            "experience_years_clean",
+            "salary_target"
+        ]
+    ].head(20)
+)
